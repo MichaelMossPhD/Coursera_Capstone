@@ -1,0 +1,888 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Neighborhood</th>
+      <th>1st Most Common Venue</th>
+      <th>2nd Most Common Venue</th>
+      <th>3rd Most Common Venue</th>
+      <th>4th Most Common Venue</th>
+      <th>5th Most Common Venue</th>
+      <th>6th Most Common Venue</th>
+      <th>7th Most Common Venue</th>
+      <th>8th Most Common Venue</th>
+      <th>9th Most Common Venue</th>
+      <th>10th Most Common Venue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>East Village</td>
+      <td>Ice Cream Shop</td>
+      <td>Bar</td>
+      <td>Wine Bar</td>
+      <td>Cocktail Bar</td>
+      <td>Mexican Restaurant</td>
+      <td>Ramen Restaurant</td>
+      <td>Speakeasy</td>
+      <td>Pizza Place</td>
+      <td>Chinese Restaurant</td>
+      <td>Café</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Rouge, Malvern</td>
+      <td>Fast Food Restaurant</td>
+      <td>Dumpling Restaurant</td>
+      <td>Diner</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+      <td>Drugstore</td>
+      <td>Eastern European Restaurant</td>
+      <td>Hardware Store</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Highland Creek, Rouge Hill, Port Union</td>
+      <td>Bar</td>
+      <td>Eastern European Restaurant</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+      <td>Drugstore</td>
+      <td>Dumpling Restaurant</td>
+      <td>Yoga Studio</td>
+      <td>Field</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Woburn</td>
+      <td>Coffee Shop</td>
+      <td>Korean Restaurant</td>
+      <td>Eastern European Restaurant</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+      <td>Drugstore</td>
+      <td>Dumpling Restaurant</td>
+      <td>Yoga Studio</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Cedarbrae</td>
+      <td>Athletics &amp; Sports</td>
+      <td>Hakka Restaurant</td>
+      <td>Fried Chicken Joint</td>
+      <td>Caribbean Restaurant</td>
+      <td>Bakery</td>
+      <td>Thai Restaurant</td>
+      <td>Bank</td>
+      <td>Donut Shop</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Scarborough Village</td>
+      <td>Playground</td>
+      <td>Convenience Store</td>
+      <td>Yoga Studio</td>
+      <td>Dumpling Restaurant</td>
+      <td>Diner</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+      <td>Drugstore</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Clairlea, Golden Mile, Oakridge</td>
+      <td>Bus Line</td>
+      <td>Bakery</td>
+      <td>Fast Food Restaurant</td>
+      <td>Intersection</td>
+      <td>Bus Station</td>
+      <td>Soccer Field</td>
+      <td>Park</td>
+      <td>Ethiopian Restaurant</td>
+      <td>Empanada Restaurant</td>
+      <td>Electronics Store</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Cliffcrest, Cliffside, Scarborough Village West</td>
+      <td>Motel</td>
+      <td>American Restaurant</td>
+      <td>Dim Sum Restaurant</td>
+      <td>Diner</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+      <td>Drugstore</td>
+      <td>Yoga Studio</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Birch Cliff, Cliffside West</td>
+      <td>College Stadium</td>
+      <td>Café</td>
+      <td>General Entertainment</td>
+      <td>Skating Rink</td>
+      <td>Drugstore</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+      <td>Dumpling Restaurant</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Dorset Park, Scarborough Town Centre, Wexford ...</td>
+      <td>Indian Restaurant</td>
+      <td>Furniture / Home Store</td>
+      <td>Pet Store</td>
+      <td>Vietnamese Restaurant</td>
+      <td>Latin American Restaurant</td>
+      <td>Chinese Restaurant</td>
+      <td>Donut Shop</td>
+      <td>Dim Sum Restaurant</td>
+      <td>Diner</td>
+      <td>Discount Store</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Maryvale, Wexford</td>
+      <td>Auto Garage</td>
+      <td>Middle Eastern Restaurant</td>
+      <td>Breakfast Spot</td>
+      <td>Shopping Mall</td>
+      <td>Bakery</td>
+      <td>Sandwich Place</td>
+      <td>Drugstore</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>L'Amoreaux West, Steeles West</td>
+      <td>Fast Food Restaurant</td>
+      <td>Chinese Restaurant</td>
+      <td>Pharmacy</td>
+      <td>Grocery Store</td>
+      <td>Coffee Shop</td>
+      <td>Pizza Place</td>
+      <td>Electronics Store</td>
+      <td>Breakfast Spot</td>
+      <td>Japanese Restaurant</td>
+      <td>Sandwich Place</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Fairview, Henry Farm, Oriole</td>
+      <td>Clothing Store</td>
+      <td>Fast Food Restaurant</td>
+      <td>Coffee Shop</td>
+      <td>Toy / Game Store</td>
+      <td>Women's Store</td>
+      <td>Asian Restaurant</td>
+      <td>Food Court</td>
+      <td>Bakery</td>
+      <td>Electronics Store</td>
+      <td>Sandwich Place</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Silver Hills, York Mills</td>
+      <td>Cafeteria</td>
+      <td>Dumpling Restaurant</td>
+      <td>Diner</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+      <td>Drugstore</td>
+      <td>Yoga Studio</td>
+      <td>Dim Sum Restaurant</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Willowdale South</td>
+      <td>Ramen Restaurant</td>
+      <td>Restaurant</td>
+      <td>Fast Food Restaurant</td>
+      <td>Sandwich Place</td>
+      <td>Pizza Place</td>
+      <td>Coffee Shop</td>
+      <td>Japanese Restaurant</td>
+      <td>Café</td>
+      <td>Hotel</td>
+      <td>Sushi Restaurant</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>York Mills West</td>
+      <td>Bar</td>
+      <td>Park</td>
+      <td>Bank</td>
+      <td>Yoga Studio</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+      <td>Drugstore</td>
+      <td>Dumpling Restaurant</td>
+      <td>Eastern European Restaurant</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Willowdale West</td>
+      <td>Pharmacy</td>
+      <td>Grocery Store</td>
+      <td>Coffee Shop</td>
+      <td>Butcher</td>
+      <td>Pizza Place</td>
+      <td>Empanada Restaurant</td>
+      <td>Ethiopian Restaurant</td>
+      <td>Electronics Store</td>
+      <td>Eastern European Restaurant</td>
+      <td>Department Store</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Don Mills North</td>
+      <td>Café</td>
+      <td>Baseball Field</td>
+      <td>Japanese Restaurant</td>
+      <td>Caribbean Restaurant</td>
+      <td>Pool</td>
+      <td>Gym / Fitness Center</td>
+      <td>Empanada Restaurant</td>
+      <td>Electronics Store</td>
+      <td>Eastern European Restaurant</td>
+      <td>Dumpling Restaurant</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Northwood Park, York University</td>
+      <td>Furniture / Home Store</td>
+      <td>Bar</td>
+      <td>Coffee Shop</td>
+      <td>Massage Studio</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+      <td>Drugstore</td>
+      <td>Dumpling Restaurant</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>CFB Toronto, Downsview East</td>
+      <td>Electronics Store</td>
+      <td>Park</td>
+      <td>Airport</td>
+      <td>Bus Stop</td>
+      <td>Farmers Market</td>
+      <td>Falafel Restaurant</td>
+      <td>Event Space</td>
+      <td>Ethiopian Restaurant</td>
+      <td>Empanada Restaurant</td>
+      <td>Diner</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>Downsview Central</td>
+      <td>Korean Restaurant</td>
+      <td>Baseball Field</td>
+      <td>Food Truck</td>
+      <td>Home Service</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+      <td>Drugstore</td>
+      <td>Dumpling Restaurant</td>
+      <td>Yoga Studio</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>Downsview Northwest</td>
+      <td>Athletics &amp; Sports</td>
+      <td>Gym / Fitness Center</td>
+      <td>Grocery Store</td>
+      <td>Discount Store</td>
+      <td>Drugstore</td>
+      <td>Dim Sum Restaurant</td>
+      <td>Diner</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>Victoria Village</td>
+      <td>Pizza Place</td>
+      <td>Coffee Shop</td>
+      <td>Hockey Arena</td>
+      <td>Portuguese Restaurant</td>
+      <td>Yoga Studio</td>
+      <td>Drugstore</td>
+      <td>Diner</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>Woodbine Heights</td>
+      <td>Pharmacy</td>
+      <td>Cosmetics Shop</td>
+      <td>Beer Store</td>
+      <td>Skating Rink</td>
+      <td>Dance Studio</td>
+      <td>Curling Ice</td>
+      <td>Asian Restaurant</td>
+      <td>Video Store</td>
+      <td>Park</td>
+      <td>Concert Hall</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>The Beaches</td>
+      <td>Asian Restaurant</td>
+      <td>Coffee Shop</td>
+      <td>Pub</td>
+      <td>Drugstore</td>
+      <td>Diner</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+      <td>Dumpling Restaurant</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>Leaside</td>
+      <td>Coffee Shop</td>
+      <td>Sporting Goods Shop</td>
+      <td>Grocery Store</td>
+      <td>Burger Joint</td>
+      <td>Sandwich Place</td>
+      <td>Breakfast Spot</td>
+      <td>Supermarket</td>
+      <td>Bank</td>
+      <td>Sports Bar</td>
+      <td>Fish &amp; Chips Shop</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>The Danforth West, Riverdale</td>
+      <td>Greek Restaurant</td>
+      <td>Coffee Shop</td>
+      <td>Ice Cream Shop</td>
+      <td>Bookstore</td>
+      <td>Italian Restaurant</td>
+      <td>Grocery Store</td>
+      <td>Brewery</td>
+      <td>Bubble Tea Shop</td>
+      <td>Restaurant</td>
+      <td>Pub</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>Lawrence Park</td>
+      <td>Bus Line</td>
+      <td>Park</td>
+      <td>Swim School</td>
+      <td>Dim Sum Restaurant</td>
+      <td>Yoga Studio</td>
+      <td>Drugstore</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>Davisville North</td>
+      <td>Food &amp; Drink Shop</td>
+      <td>Park</td>
+      <td>Gym</td>
+      <td>Breakfast Spot</td>
+      <td>Sandwich Place</td>
+      <td>Burger Joint</td>
+      <td>Hotel</td>
+      <td>Yoga Studio</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>North Toronto West</td>
+      <td>Coffee Shop</td>
+      <td>Clothing Store</td>
+      <td>Sporting Goods Shop</td>
+      <td>Bagel Shop</td>
+      <td>Fast Food Restaurant</td>
+      <td>Diner</td>
+      <td>Metro Station</td>
+      <td>Mexican Restaurant</td>
+      <td>Dessert Shop</td>
+      <td>Park</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>Moore Park, Summerhill East</td>
+      <td>Gym</td>
+      <td>Playground</td>
+      <td>Tennis Court</td>
+      <td>Yoga Studio</td>
+      <td>Donut Shop</td>
+      <td>Dim Sum Restaurant</td>
+      <td>Diner</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>Deer Park, Forest Hill SE, Rathnelly, South Hi...</td>
+      <td>Coffee Shop</td>
+      <td>Pub</td>
+      <td>Sushi Restaurant</td>
+      <td>Sports Bar</td>
+      <td>Light Rail Station</td>
+      <td>Bagel Shop</td>
+      <td>Vietnamese Restaurant</td>
+      <td>Fried Chicken Joint</td>
+      <td>Pizza Place</td>
+      <td>Convenience Store</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>Rosedale</td>
+      <td>Park</td>
+      <td>Playground</td>
+      <td>Trail</td>
+      <td>Yoga Studio</td>
+      <td>Drugstore</td>
+      <td>Dim Sum Restaurant</td>
+      <td>Diner</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>Cabbagetown, St. James Town</td>
+      <td>Coffee Shop</td>
+      <td>Restaurant</td>
+      <td>Café</td>
+      <td>Bakery</td>
+      <td>Pub</td>
+      <td>Park</td>
+      <td>Italian Restaurant</td>
+      <td>Pizza Place</td>
+      <td>Jewelry Store</td>
+      <td>Snack Place</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>Church and Wellesley</td>
+      <td>Japanese Restaurant</td>
+      <td>Sushi Restaurant</td>
+      <td>Coffee Shop</td>
+      <td>Gay Bar</td>
+      <td>Restaurant</td>
+      <td>Burger Joint</td>
+      <td>Bubble Tea Shop</td>
+      <td>Men's Store</td>
+      <td>Café</td>
+      <td>Fast Food Restaurant</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>Harbourfront, Regent Park</td>
+      <td>Coffee Shop</td>
+      <td>Bakery</td>
+      <td>Park</td>
+      <td>Café</td>
+      <td>Theater</td>
+      <td>Breakfast Spot</td>
+      <td>Mexican Restaurant</td>
+      <td>Restaurant</td>
+      <td>Pub</td>
+      <td>French Restaurant</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>Berczy Park</td>
+      <td>Coffee Shop</td>
+      <td>Cocktail Bar</td>
+      <td>Restaurant</td>
+      <td>Seafood Restaurant</td>
+      <td>Pub</td>
+      <td>Café</td>
+      <td>Italian Restaurant</td>
+      <td>Cheese Shop</td>
+      <td>Farmers Market</td>
+      <td>Beer Bar</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>Bedford Park, Lawrence Manor East</td>
+      <td>Coffee Shop</td>
+      <td>Italian Restaurant</td>
+      <td>Fast Food Restaurant</td>
+      <td>Comfort Food Restaurant</td>
+      <td>Sandwich Place</td>
+      <td>Restaurant</td>
+      <td>Butcher</td>
+      <td>Café</td>
+      <td>Pub</td>
+      <td>Pizza Place</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>Roselawn</td>
+      <td>Garden</td>
+      <td>Music Venue</td>
+      <td>Drugstore</td>
+      <td>Diner</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+      <td>Dumpling Restaurant</td>
+      <td>Dessert Shop</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>The Annex, North Midtown, Yorkville</td>
+      <td>Café</td>
+      <td>Coffee Shop</td>
+      <td>Sandwich Place</td>
+      <td>Pizza Place</td>
+      <td>American Restaurant</td>
+      <td>Indian Restaurant</td>
+      <td>BBQ Joint</td>
+      <td>Flower Shop</td>
+      <td>Pub</td>
+      <td>Jewish Restaurant</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>Harbord, University of Toronto</td>
+      <td>Café</td>
+      <td>Bookstore</td>
+      <td>Restaurant</td>
+      <td>Japanese Restaurant</td>
+      <td>Bar</td>
+      <td>Coffee Shop</td>
+      <td>Bakery</td>
+      <td>Nightclub</td>
+      <td>Chinese Restaurant</td>
+      <td>Beer Store</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>CN Tower, Bathurst Quay, Island airport, Harbo...</td>
+      <td>Airport Lounge</td>
+      <td>Airport Terminal</td>
+      <td>Airport Service</td>
+      <td>Boat or Ferry</td>
+      <td>Sculpture Garden</td>
+      <td>Plane</td>
+      <td>Harbor / Marina</td>
+      <td>Boutique</td>
+      <td>Airport Gate</td>
+      <td>Airport</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>First Canadian Place, Underground city</td>
+      <td>Coffee Shop</td>
+      <td>Café</td>
+      <td>Hotel</td>
+      <td>Restaurant</td>
+      <td>American Restaurant</td>
+      <td>Gastropub</td>
+      <td>Bakery</td>
+      <td>Seafood Restaurant</td>
+      <td>Steakhouse</td>
+      <td>Asian Restaurant</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>Glencairn</td>
+      <td>Metro Station</td>
+      <td>Pizza Place</td>
+      <td>Japanese Restaurant</td>
+      <td>Pub</td>
+      <td>Donut Shop</td>
+      <td>Diner</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Yoga Studio</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>Humewood-Cedarvale</td>
+      <td>Field</td>
+      <td>Playground</td>
+      <td>Hockey Arena</td>
+      <td>Trail</td>
+      <td>Dumpling Restaurant</td>
+      <td>Diner</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>Christie</td>
+      <td>Grocery Store</td>
+      <td>Café</td>
+      <td>Park</td>
+      <td>Nightclub</td>
+      <td>Diner</td>
+      <td>Italian Restaurant</td>
+      <td>Baby Store</td>
+      <td>Restaurant</td>
+      <td>Athletics &amp; Sports</td>
+      <td>Convenience Store</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>Maple Leaf Park, North Park, Upwood Park</td>
+      <td>Park</td>
+      <td>Construction &amp; Landscaping</td>
+      <td>Bakery</td>
+      <td>Basketball Court</td>
+      <td>Yoga Studio</td>
+      <td>Eastern European Restaurant</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+      <td>Drugstore</td>
+      <td>Dumpling Restaurant</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>Del Ray, Keelesdale, Mount Dennis, Silverthorn</td>
+      <td>Coffee Shop</td>
+      <td>Restaurant</td>
+      <td>Sandwich Place</td>
+      <td>Check Cashing Service</td>
+      <td>Yoga Studio</td>
+      <td>Donut Shop</td>
+      <td>Diner</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>Parkdale, Roncesvalles</td>
+      <td>Breakfast Spot</td>
+      <td>Gift Shop</td>
+      <td>Restaurant</td>
+      <td>Eastern European Restaurant</td>
+      <td>Dog Run</td>
+      <td>Bookstore</td>
+      <td>Bank</td>
+      <td>Bar</td>
+      <td>Dessert Shop</td>
+      <td>Movie Theater</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>Runnymede, Swansea</td>
+      <td>Coffee Shop</td>
+      <td>Pizza Place</td>
+      <td>Café</td>
+      <td>Italian Restaurant</td>
+      <td>Sushi Restaurant</td>
+      <td>Spa</td>
+      <td>Indie Movie Theater</td>
+      <td>Food</td>
+      <td>Pub</td>
+      <td>Bar</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>Queen's Park</td>
+      <td>Coffee Shop</td>
+      <td>Sushi Restaurant</td>
+      <td>Gym</td>
+      <td>Japanese Restaurant</td>
+      <td>Diner</td>
+      <td>Yoga Studio</td>
+      <td>Burrito Place</td>
+      <td>Italian Restaurant</td>
+      <td>Fast Food Restaurant</td>
+      <td>Smoothie Shop</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>Canada Post Gateway Processing Centre</td>
+      <td>Coffee Shop</td>
+      <td>Hotel</td>
+      <td>Gym / Fitness Center</td>
+      <td>Burrito Place</td>
+      <td>Fried Chicken Joint</td>
+      <td>Middle Eastern Restaurant</td>
+      <td>Sandwich Place</td>
+      <td>American Restaurant</td>
+      <td>Mediterranean Restaurant</td>
+      <td>Dumpling Restaurant</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>Business Reply Mail Processing Centre 969 Eastern</td>
+      <td>Light Rail Station</td>
+      <td>Yoga Studio</td>
+      <td>Garden Center</td>
+      <td>Skate Park</td>
+      <td>Brewery</td>
+      <td>Park</td>
+      <td>Farmers Market</td>
+      <td>Fast Food Restaurant</td>
+      <td>Burrito Place</td>
+      <td>Restaurant</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>Alderwood, Long Branch</td>
+      <td>Pizza Place</td>
+      <td>Pharmacy</td>
+      <td>Gym</td>
+      <td>Coffee Shop</td>
+      <td>Skating Rink</td>
+      <td>Sandwich Place</td>
+      <td>Pub</td>
+      <td>Dog Run</td>
+      <td>Dessert Shop</td>
+      <td>Dim Sum Restaurant</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>The Kingsway, Montgomery Road, Old Mill North</td>
+      <td>River</td>
+      <td>Park</td>
+      <td>Pool</td>
+      <td>Drugstore</td>
+      <td>Dim Sum Restaurant</td>
+      <td>Diner</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>Kingsway Park South West, Mimico NW, The Queen...</td>
+      <td>Social Club</td>
+      <td>Convenience Store</td>
+      <td>Discount Store</td>
+      <td>Tanning Salon</td>
+      <td>Bakery</td>
+      <td>Burger Joint</td>
+      <td>Flower Shop</td>
+      <td>Sandwich Place</td>
+      <td>Supplement Shop</td>
+      <td>Fast Food Restaurant</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>Cloverdale, Islington, Martin Grove, Princess ...</td>
+      <td>Bank</td>
+      <td>Golf Course</td>
+      <td>Yoga Studio</td>
+      <td>Dumpling Restaurant</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+      <td>Drugstore</td>
+      <td>Eastern European Restaurant</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>Bloordale Gardens, Eringate, Markland Wood, Ol...</td>
+      <td>Pharmacy</td>
+      <td>Liquor Store</td>
+      <td>Pizza Place</td>
+      <td>Beer Store</td>
+      <td>Café</td>
+      <td>Convenience Store</td>
+      <td>Dumpling Restaurant</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>Emery, Humberlea</td>
+      <td>Baseball Field</td>
+      <td>Yoga Studio</td>
+      <td>Eastern European Restaurant</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+      <td>Drugstore</td>
+      <td>Dumpling Restaurant</td>
+      <td>Electronics Store</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>Weston</td>
+      <td>Park</td>
+      <td>Convenience Store</td>
+      <td>Yoga Studio</td>
+      <td>Eastern European Restaurant</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+      <td>Doner Restaurant</td>
+      <td>Donut Shop</td>
+      <td>Drugstore</td>
+      <td>Dumpling Restaurant</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>Westmount</td>
+      <td>Pizza Place</td>
+      <td>Chinese Restaurant</td>
+      <td>Coffee Shop</td>
+      <td>Sandwich Place</td>
+      <td>Middle Eastern Restaurant</td>
+      <td>Intersection</td>
+      <td>Yoga Studio</td>
+      <td>Diner</td>
+      <td>Discount Store</td>
+      <td>Dog Run</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>Albion Gardens, Beaumond Heights, Humbergate, ...</td>
+      <td>Grocery Store</td>
+      <td>Pharmacy</td>
+      <td>Fried Chicken Joint</td>
+      <td>Coffee Shop</td>
+      <td>Pizza Place</td>
+      <td>Sandwich Place</td>
+      <td>Beer Store</td>
+      <td>Fast Food Restaurant</td>
+      <td>Video Store</td>
+      <td>Gluten-free Restaurant</td>
+    </tr>
+  </tbody>
+</table>
